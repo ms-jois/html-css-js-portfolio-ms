@@ -176,6 +176,12 @@ section{
     background-size: cover;
 }
 
+.cs-bg{
+    background-image: url(./assets/CS_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* PROFILE SECTIONS */
 
 #profile{
@@ -459,9 +465,56 @@ article .icon{
 .project-btn{
     color: rgb(245, 237, 237);
     border-color: rgb(33, 30, 30);
-    background:rgba(89, 5, 126, 0.927);
+    background:rgba(65, 13, 25, 0.927);
 }
 
+/*CASE STUDY*/
+
+#casestudy{
+    position: relative;
+}
+
+.btn-container-cs{
+   margin-bottom: 3rem;
+}
+
+.cs-btn{
+    color: rgb(39, 29, 31);
+    border-color: rgb(33, 30, 30);
+    background:rgba(238, 233, 240, 0.927);
+}
+
+.btn1 {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 3rem; /* Position 10px from the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.text-container-box{
+    border-color: rgb(33, 30, 30);
+    background:rgba(238, 233, 240, 0.927);
+    transition: all 300ms ease;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 3rem 3rem;
+}
+
+.text-container2{
+    text-align: justify;
+    color: rgba(17, 17, 16, 0.937);
+}
+
+.text-cs-title{
+    text-align: justify;
+    color: rgba(17, 17, 16, 0.937);
+    font-weight: bold;
+}
 /* CONTACT */
 
 #contact{

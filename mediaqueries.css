@@ -55,7 +55,8 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-containers, .contact-info-upper-container, .btn-container{
+    .about-containers, .contact-info-upper-container, .btn-container,
+    .btn-container-cs, .text-container-box{
         flex-wrap: wrap;
     }
     .contact-info-container{
@@ -86,7 +87,8 @@
     .title{
         font-size: 2rem;
     }
-    .text-container, .text-container1{
+    .text-container, .text-container1, 
+    .text-container2{
         text-align: justify;
     }
 }
